@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CallActivity">
+
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:lineSpacingExtra="14sp"
+        android:text="Atras ..."
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtnumero"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="53dp"-->
+<!--        android:layout_margin="50dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textColorHint="@color/white" />-->
+
+    <EditText
+        android:id="@+id/txtnumero"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_margin="50dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="101dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="170dp"
+        app:srcCompat="@drawable/call"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+
+</LinearLayout>
